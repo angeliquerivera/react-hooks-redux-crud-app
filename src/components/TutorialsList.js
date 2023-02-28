@@ -17,7 +17,7 @@ const TutorialsList = () => {
 
   useEffect(() => {
     dispatch(retrieveTutorials());
-  }, []);
+  });
 
   const onChangeSearchTitle = (e) => {
     const searchTitle = e.target.value;
