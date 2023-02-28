@@ -14,8 +14,6 @@ const AddTutorial = () => {
 
   const dispatch = useDispatch();
 
-  dispatch(createTutorial());
-
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setTutorial({ ...tutorial, [name]: value });
